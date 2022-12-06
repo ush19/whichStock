@@ -1,0 +1,38 @@
+GOAL
+build application to evaluate and recommend companies for investing
+
+INSPIRATION
+Challenge to expand Python skills to build a sort of mathematical model and recommendation system to recommend companies from calculated metrics, inspired from Mary Buffett’s Interpretation of Financial Statements + more abstract factors/features to figure out
+
+INITIAL THOUGHTS
+From Checklist Manifesto (Atul Gawande): 
+REMEMBER: checklist is not a formula
+“It’s easy to hide in the statements. It’s hard to hide between statements.”
+To find underrecognized, undervalued companies (value investing)
+    - ex. “buy Coca-cola before everyone realizes it’s going to be Coca-Cola”
+    - CHECK: research + good deal + invest for the long run
+    - CHECK: financial reports + liabilities, risk + management’s track record + competitor analysis + future of industry
+    - CHECK: leverage = borrowed + actual cash + riskiness of debts
+    - CHECK: if revenue is overstated or understated and if it’s due to boom or bust conditions (i.e., if it’s temporary)
+    - CHECK: footnotes on Cash Flow statement
+    - CHECK: statement of key management risk
+    - CHECK: if cash flow and costs matches reported revenue growth
+
+---
+
+PRIMARY RESOURCES: 
+[1] (book) Warren Buffet and the Interpretation of Financial Statements - peruse 
+[2] (book) The Intelligent Investor: The Definitive Book on Value Investing - reference + ideas
+[3] (book) Stocks for the Long Run: A Guide to Selecting Markets for Long-Term Growth - reference + ideas
+
+(online resources on Mac)
+
+---
+
+INITIAL CONSIDERATIONS
+Market API: 
+    financialmodelingprep (FMP) - Yearly Starter Plan ($10.50/month)
+Use FMP to gather all metrics mentioned in [1] for analysis and comparison
+Develop formulae from [1] to determine if good to suggest
+Develop mathematical model to score when compared against other companies
+VERIFY: Buffett only compares companies in the same industry - develop script to gather stocks when mentioned in the same article or in the same industry and cap size
