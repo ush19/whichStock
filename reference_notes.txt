@@ -64,8 +64,9 @@ FUTURE CONSIDERATION:
     let invest X amount of money
     
 MILESTONES: 
-    {1} develop all metrics from (WB - INTERPRETATION OF FINANCIAL STATEMENTS) into Python for one company 
-    {2} develop method to retreive companies in similar industry or are competitors
-    {3} develop mathematical model from metrics
-    {4} 
+    {1} [DELIVERABLE] develop all metrics from (WB - INTERPRETATION OF FINANCIAL STATEMENTS) into Python for one user-provided company 
+    {2} develop front end for {1}
+    {3} develop method to retreive other companies in similar industry or are competitors
+    {4} develop mathematical model from metrics
+    {5} 
     
