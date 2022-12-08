@@ -34,7 +34,11 @@ KEY METRIC:
 METRICS: 
     [INCOME STATEMENT][REVENUE]: 
         ☑️ Determine if company is earning profit: 
-        GROSS PROFIT = PROFIT = NET EARNINGS = TOTAL REVENUE - EXPENSES = TOTAL REVENUE - COGS 
+        GROSS PROFIT 
+        = PROFIT   
+        = NET EARNINGS 
+        = TOTAL REVENUE - EXPENSES 
+        = TOTAL REVENUE - COGS 
         
 FEATURES: 
     options to method of investing, ex. Graham, Buffett, Palakurthi, mix(?)
