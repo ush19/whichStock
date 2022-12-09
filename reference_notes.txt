@@ -32,13 +32,43 @@ KEY METRIC:
         - this will be the metric to score companies: DCA_SCORE
         
 METRICS: 
-    [INCOME STATEMENT][REVENUE]: 
-        ☑️ Determine if company is earning profit: 
-        GROSS PROFIT 
-        = PROFIT   
-        = NET EARNINGS 
-        = TOTAL REVENUE - EXPENSES 
-        = TOTAL REVENUE - COGS 
+    [29][INCOME STATEMENT][REVENUE][COST OF GOODS SOLD]: 
+        ☑️✅ Determine if company is earning profit: 
+            GROSS PROFIT = PROFIT = NET EARNINGS 
+            = TOTAL REVENUE - EXPENSES 
+            = TOTAL REVENUE - COGS 
+        INTERPRETATION: 
+            higher, the better
+
+    [30][INCOME STATEMENT][COST OF GOODS SOLD]:
+        ☑️✅🚨 not so helpful by itself
+        BUT should know how a company is deriving this number
+
+    [32][INCOME STATEMENT][REVENUE][COST OF GOODS SOLD]:
+        ☑️✅ High GPM allows company to increase the price of products/services way more than the COGS, compared to other companies
+        GROSS PROFIT MARGIN = GPM = 
+            = GROSS PROFIT / TOTAL REVENUE
+            = (TOTAL REVENUE - EXPENSES) / TOTAL REVENUE
+            = (TOTAL REVENUE - COGS) / TOTAL REVENUE
+        INTERPRETATION: 
+            best time frame: last 10 years 
+            if company *consistently* has higher gross profit margin than other companies
+            Companies with >= 40% GPM have DCA 
+            Companies with < 40% GPM are in highly competitive industries
+            Companies with <= 20% GPM are in fiercely competitive industries 
+        DOWNSIDE: 
+            WB stays away from tech companies
+                ex. MSFT has GPM of 79% while AAPL has GPM  of 31%
+
+    [36][INCOME STATEMENT][OPERATING EXPENSES][GROSS PROFIT]
+        ☑️ Operating expenses (OpEx) includes R&D, SG&A, depreciative, amortization, and other
+        OPERATING PROFIT OR LOSS = 
+            = GROSS PROFIT - OPERATING EXPENSES
+            = (REVENUE - COGS) - OPERATING EXPENSES
+            = (REVENUE - COGS) - (SG&A + R&D + DEPRECIATION + OTHER)
+        INTERPRETATION: 
+            (?) best to have consistently positive, high operating P/L
+        
         
 FEATURES: 
     options to method of investing, ex. Graham, Buffett, Palakurthi, mix(?)
