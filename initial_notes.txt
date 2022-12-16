@@ -35,4 +35,4 @@ Market API:
 Use FMP to gather all metrics mentioned in [1] for analysis and comparison
 Develop formulae from [1] to determine if good to suggest
 Develop mathematical model to score when compared against other companies
-VERIFY: Buffett only compares companies in the same industry - develop script to gather stocks when mentioned in the same article or in the same industry and cap size
+Buffett only compares companies in the same industry - develop script to gather stocks when mentioned in the same article or in the same industry and cap size (maybe?)
