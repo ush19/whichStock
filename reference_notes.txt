@@ -34,9 +34,7 @@ KEY METRIC:
 METRICS: 
     [29][INCOME STATEMENT][REVENUE][COST OF GOODS SOLD]: 
         ☑️✅ Determine if company is earning profit: 
-            GROSS PROFIT = PROFIT = NET EARNINGS 
-            = TOTAL REVENUE - EXPENSES 
-            = TOTAL REVENUE - COGS 
+            GROSS PROFIT = PROFIT = NET EARNINGS = TOTAL REVENUE - EXPENSES = TOTAL REVENUE - COGS 
         INTERPRETATION: 
             higher, the better
 
@@ -61,14 +59,80 @@ METRICS:
                 ex. MSFT has GPM of 79% while AAPL has GPM  of 31%
 
     [36][INCOME STATEMENT][OPERATING EXPENSES][GROSS PROFIT]
-        ☑️ Operating expenses (OpEx) includes R&D, SG&A, depreciative, amortization, and other
+        ☑️✅ Operating expenses (OpEx) includes R&D, SG&A, depreciative, amortization, and other.
         OPERATING PROFIT OR LOSS = 
             = GROSS PROFIT - OPERATING EXPENSES
             = (REVENUE - COGS) - OPERATING EXPENSES
             = (REVENUE - COGS) - (SG&A + R&D + DEPRECIATION + OTHER)
         INTERPRETATION: 
             (?) best to have consistently positive, high operating P/L
+
+    [38][INCOME STATEMENT][SELLING, GENERAL, ADMINISTRATIVE EXPENSES][GROSS PROFIT]
+        ☑️✅ SG&A includes costs for direct and indirect selling expenses and all general and admin. expenses during accounting period. Also includes management salaries, advertising, travel costs, legal fees, commissions, all payroll costs, etc. 
+        Calculated as a percentage of gross profit
+        Consistency is key
+        INTERPRETATION:
+            Lower, the better. Consistently low, even better
+            Companies with < 30%: fantastic DCA
+            Companies between 30% and 80%: DCA
+            Companies consistently close to or above 100%: no DCA (highly competitive industry)
+            
+            Companies with high R&D can be bad SOMETIMES, even with DCA 
+            
+            MUST compare against R&D costs, capital expenditure and debt
+            
+            report as is and as a percentage of gross profit
+            
+    [42][INCOME STATEMENT][RESEARCH AND DEVELOPMENT][GROSS PROFIT]
+        ☑️✅ WB doesn't like companies which consistently spend and especially spend high percentages of R&D costs from gross profit. 
+        INTERPRETATION: 
+            little to nil R&D costs is preferable, consistently
+            record as amount and percentage of gross profit
         
+    [45][INCOME STATEMENT][DEPRECIATION][OPERATING PROFIT]
+        ☑️✅🚨 Note: EBITDA - Earnings Before Income Tax, Depreciation, Amortization = used since companies report earnings which are decreased from the depreciation 
+        INTERPRETATION:
+            little to nil depreciation is preferable, consistently
+            record as amount and percentage of gross profit/operating profit
+            
+        Amortization included in Depreciation amount and label. Concern? 
+        
+    [49][INCOME STATEMENT][INTEREST EXPENSE][OPERATING PROFIT]
+        ☑️✅ Defined as the interest paid out, during the quarter or year, on the debt the company carries on its balance sheet as a liability. 
+        INTERPRETATION:
+            little to no interest expense is preferable, consistently 
+            interest expense of less than 15% operating income is WB's rule in consumer products category. this varies in various industries. 
+            in any given industry, the company with the lowest ratio of interest expense to operating income is the company with DCA. 
+            
+            record as amount and percentage of operating income / operating profit
+            
+            
+            
+    [53][INCOME STATEMENT][GAIN/(LOSS) SALE ASSETS, OTHER]
+        ☑️✅ non-recurring events so should NOT be taken into account
+        INTERPRETATION: 
+            NOT USED
+        
+    [55][INCOME STATEMENT][INCOME BEFORE TAX]
+        ☑️✅ This figure should actually be used when comparing companies. 
+        INTERPRETATION: 
+            interpret as is
+            
+            record as is
+            
+    [57][INCOME STATEMENT][INCOME TAXES PAID]
+        ☑️✅🚨 this number is derived from when taxes are paid 
+        INTERPRETATION: 
+            if: 
+                [INCOME BEFORE TAX] - ([INCOME BEFORE TAX] * 0.35) != [INCOME TAXES PAID]
+            then:
+                flag BAD
+            else:
+                flag GOOD
+        
+        
+    [59][INCOME STATEMENT][NET EARNINGS]
+         
         
 FEATURES: 
     options to method of investing, ex. Graham, Buffett, Palakurthi, mix(?)
@@ -88,10 +152,18 @@ FEATURES:
 RESTRICTIONS: 
     program is meant for long-term value investing
     
-FUTURE CONSIDERATION: 
+FUTURE CONSIDERATIONS: 
     integrate DB connection and capabilities
     integrate Alpaca
     let invest X amount of money
+    
+    (Dec 16 2022) To track consistency, use series of regression models and use statistics to confirm consistency
+    (Dec 16 2022) After thinking about it... there's probably a better way to take all the values of the quarterly and annual pandas dataframe and transform them into the columns I need than doing the calculations one by one - to implement after this iteration
+    (Dec 16 2022) Amortization is included with Depreciation - will this be an issue? 
+    (Dec 16 2022) [57] amount from the calculation will never be exact so need a gray range to estimate if good or bad
+    (Dec 16 2022) [57] "The 2017 Tax Cuts and Jobs Act made several large changes to business taxes, including permanently lowering the corporate income tax rate from 35 percent to 21 percent"
+    
+    
     
 MILESTONES: 
     {1} [DELIVERABLE] develop all metrics from (WB - INTERPRETATION OF FINANCIAL STATEMENTS) into Python for one user-provided company 
