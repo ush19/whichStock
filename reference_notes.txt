@@ -32,9 +32,10 @@ KEY METRIC:
         - this will be the metric to score companies: DCA_SCORE
         
 METRICS: 
-    [29][INCOME STATEMENT][REVENUE][COST OF GOODS SOLD]: 
+    [28][INCOME STATEMENT][REVENUE][COST OF GOODS SOLD]: 
+        RELABELED AS GROSS PROFIT
         ☑️✅ Determine if company is earning profit: 
-            GROSS PROFIT = PROFIT = NET EARNINGS = TOTAL REVENUE - EXPENSES = TOTAL REVENUE - COGS 
+            GROSS PROFIT = PROFIT = TOTAL REVENUE - EXPENSES = TOTAL REVENUE - COGS 
         INTERPRETATION: 
             higher, the better
 
@@ -107,7 +108,6 @@ METRICS:
             record as amount and percentage of operating income / operating profit
             
             
-            
     [53][INCOME STATEMENT][GAIN/(LOSS) SALE ASSETS, OTHER]
         ☑️✅ non-recurring events so should NOT be taken into account
         INTERPRETATION: 
@@ -132,7 +132,22 @@ METRICS:
         
         
     [59][INCOME STATEMENT][NET EARNINGS]
-         
+        ☑️✅🚨 Net Earnings = Income Before Tax - Income Taxes Paid 
+        INTERPRETATION:
+            historical, consistent upward trend is highly preferable
+            ratio between net earnings to total revenue should be high. Generally speaking (with exceptions): 
+                > 20%, consistently: long term competitive advantage
+                < 10%, consistently: highly competitive industry
+                between 10% - 20%: possibly good that no one has discovered yet? EXPLORE
+                
+            EXCEPTION: banks and financial companies have high net earnings to revenue which are not what they seem - maybe excuse this metric for banks and financial companies
+                
+    [63][INCOME STATEMENT][NET EARNINGS]
+        ☑️ Per-Share Earnings = Net Earnings / Outstanding Shares
+        INTERPRETATION: 
+            historical, consistent upward trend is highly preferable
+            
+    [
         
 FEATURES: 
     options to method of investing, ex. Graham, Buffett, Palakurthi, mix(?)
