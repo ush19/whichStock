@@ -143,11 +143,24 @@ METRICS:
             EXCEPTION: banks and financial companies have high net earnings to revenue which are not what they seem - maybe excuse this metric for banks and financial companies
                 
     [63][INCOME STATEMENT][NET EARNINGS]
-        ☑️ Per-Share Earnings = Net Earnings / Outstanding Shares
+        ☑️✅ Per-Share Earnings = Net Earnings / Outstanding Shares
         INTERPRETATION: 
             historical, consistent upward trend is highly preferable
             
-    [
+    [69][BALANCE SHEET]
+        Shows how much the company has in assets and how much money it owes 
+        Two parts:
+            (1) assets: 
+                    cash, receivables, inventory, property, plant, equipment
+            (2) liabilities 
+                    Current Liabilities:
+                        money owed within the year (A/P, Accrued Expenses, Short-Term Debt, Long-Term Debt)
+                    Long-term liabilities:
+                        due in one year or more as well as money owed to vendors 
+                shareholders equity
+                    = net worth of business = assets - liabilities
+                    
+
         
 FEATURES: 
     options to method of investing, ex. Graham, Buffett, Palakurthi, mix(?)
