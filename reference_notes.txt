@@ -148,7 +148,7 @@ METRICS:
             historical, consistent upward trend is highly preferable
             
     [69][BALANCE SHEET]
-        Shows how much the company has in assets and how much money it owes 
+        ✅ Shows how much the company has in assets and how much money it owes 
         Two parts:
             (1) assets: 
                     cash, receivables, inventory, property, plant, equipment
@@ -160,7 +160,46 @@ METRICS:
                 shareholders equity
                     = net worth of business = assets - liabilities
                     
-
+    [72][BALANCE SHEET][ASSETS]
+        ✅ Total Assets = cash, plant and equipment, patents. 
+        2 categories make up Total Assets:
+            (1) Current Assets: cash and cash equivalents, short term investments, net receivables, inventory, other assets 
+                Can be converted into cash, usually, within a year
+                Listed in order of liquidity (high to low) 
+            (2) All Other Assets: 
+                Long-term investments, property plant and equipment, Goodwill, intangible assets, accumulated amortization, other assets, deferred long term asset charges 
+                Cannot be converted into cash within a year
+                    
+    [75][BALANCE SHEET][CURRENT ASSETS]
+        ✅ Current assets = working assets: cash going into buying inventory
+            Current assets: Cash --> inventory --> Accounts Receivable --> Cash
+            
+    [77][BALANCE SHEET][CASH AND CASH EQUIVALENT]
+        ☑️✅ Low amount of cash means poor economics of a company
+        Huge amounts of cash is a good thing
+        
+        Ways to create cash: 
+            1. sell new bonds or equity to the public
+            2. sell existing business or other assets that the company owns
+            3. ongoing business than generates more cash than it burns
+            
+        INTERPRETATION: 
+            Look at company's past 7 years of balance sheets. 
+            If a company's DCA is about to disappear, look at how much cash they have.
+                If high cash and low debt, it's ok - HOLD. 
+                
+                    
+    [171][WHEN TO BUY]
+        No certain time about when to buy
+        But when NOT to buy: at the height of bull markets, when they have historically high price-to-earnings ratio
+        
+    [173][WHEN TO SELL]
+        - no matter what, sell ONLY after one year of holding investment
+        - sell when money is needed for another investment with better returns 
+        - sell when DCA is about to disappear
+        - sell when in a bull market and everyone's buying
+            this sends price high and crash harder
+        - sell when PE ratio of 40 or more
         
 FEATURES: 
     options to method of investing, ex. Graham, Buffett, Palakurthi, mix(?)
