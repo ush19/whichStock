@@ -187,7 +187,71 @@ METRICS:
             Look at company's past 7 years of balance sheets. 
             If a company's DCA is about to disappear, look at how much cash they have.
                 If high cash and low debt, it's ok - HOLD. 
-                
+
+    [81][BALANCE SHEET][INVENTORY]
+        ☑️✅ Total Inventory is the value amount of the company's inventory for that day
+        
+        INTERPRETATION:
+            Look for a historic positive correlation between inventory and net earnings. 
+                this means that the company is finding profitable ways to increase sales which means increase in inventory
+            (bad if a company has a rise in inventory and net earnings and then rate decreases - possibly highly competitive industry)
+            
+    [83][BALANCE SHEET][NET RECEIVABLES]
+        ☑️✅ receivables: where cash is due
+        
+        INTERPRETATION: 
+            to compare between companies in the same industry. 
+            DCA when lower percentage of Net Receivables to Gross Sales (revenue) than competitors
+
+    [85][BALANCE SHEET][PREPAID EXPENSES/OTHER CURRENT ASSETS]
+        ✅ assets which have been paid for before they are delivered
+        
+    [87][BALANCE SHEET][TOTAL CURRENT ASSETS][CURRENT RATIO]
+        ✅🚨 WB does not use; however, will report but will not use in analysis
+        Current ratio: current assets / current liabilities
+         
+         INTERPRETATION:
+             Ratio > 1: good 
+             Ratio < 1: bad 
+             (included in reporting but not in analysis)
+         
+    [90][BALANCE SHEET][PROPERTY PLANT EQUIPMENT]
+        ✅🚨 mentioned on balance sheet as original cost minus accumulated depreciation
+        may be worthwhile to come up with something which revolves around PPE, debt, and revenue values
+        
+        INTERPRETATION:
+            companies which produce a consistent product equals consistent profits which comes from consistent products which means no need to spend money on updating PPE 
+            
+    [94][BALANCE SHEET][GOODWILL]
+        ☑️✅ buying companies for a price above their book value increases goodwill on balance sheet
+        
+        INTERPRETATION:
+            Good if goodwill increases over number of years AND companies which are being bought out also have DCA
+            
+    [96][BALANCE SHEET][INTANGIBLE ASSETS]
+        ✅ non-physical assets like patents, copyrights, trademarks, franchises, brand names, etc. 
+        value of company cannot be measured numerically through the intangible assets value
+        
+    [99][BALANCE SHEET][LONG TERM INVESTMENTS]
+        ✅ long term investments (more than a year): stocks, bonds, real estate
+        also includes investments in affiliate companies and subsidiares as well as other businesses. 
+        
+        Reported as the market value bought at (not increased if asset appreciated)
+        
+        INTERPRETATION:
+            subjective
+            must determine if invested companies are companies with DCA
+            
+    [102][BALANCE SHEET][OTHER LONG TERM ASSETS]
+        ✅ assets outside of PPE, Goodwill, Intangible assets and Long Term Investments
+        
+        
+    [
+        
+        
+        
+            
+
                     
     [171][WHEN TO BUY]
         No certain time about when to buy
