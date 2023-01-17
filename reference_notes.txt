@@ -246,10 +246,85 @@ METRICS:
         ✅ assets outside of PPE, Goodwill, Intangible assets and Long Term Investments
         
         
-    [
+    [104][BALANCE SHEET][TOTAL ASSETS AND RETURN ON TOTAL ASSETS]
+        ☑️🚨 Current Assets + Long Term Assets = Total Assets 
+        Total assets = Total Liabilities + Shareholders' Equity
+            they should balanace
         
+        Return on Asset Ratio = Net Earnings / Total Assets
         
+        INTERPRETATION: 
+            high return on asset ratio might not always be a good thing -- high ratio may mean vulnerability in the durability of the DCA
+            "more can actually mean less over the long-term"
         
+    [106][BALANCE SHEET][CURRENT LIABILITIES]
+        ☑️ debts and obligations that the company owes within the fiscal year
+        
+    [107][BALANCE SHEET][ACCOUNTS PAYABLE, ACCRUED EXPENSES, OTHER CURRENT LIABILITIES]
+        ✅ Accounts payabale = AP = money owed to suppliers who have provided goods and services to company (already in bills/invoices)
+        Accrued expenses = liabilities which have yet to be invoiced for (tax payable, wages payable, accrued rent payable)
+        Other debts = short term debts which don't qualify for the above two 
+        
+        INTERPRETATION:
+            cannot tell much 
+            
+    [109][BALANCE SHEET][SHORT TERM DEBT]
+        ☑️ money owed by company and due within the year (commercial paper and short term bank loans)
+        
+        "rolling over the debt": borrow more money short-term to pay back the short-term debt that is coming due -- while also borrowing at a lower rate than the rate at which the money is lended
+        
+        INTERPRETATION:
+            stay away from companies with more short term debt than long term debt
+            
+    [113][BALANCE SHEET][LONG TERM DEBT]
+        ☑️ money that is long coming due and is due within a year
+        
+        INTERPRETATION:
+            stay away from companies with consistent long term debt
+            stay away from companies with a huge record of long term debt in one year
+            look for companies which have little to none long term debt
+            look for companies which have sufficient yearly net earnings to pay off all of its long-term debt within a 3-4 year earnings period
+            
+    [115][BALANCE SHEET][TOTAL CURRENT LIABILITIES]
+        ✅🚨 SAME AS:
+                [87][BALANCE SHEET][TOTAL CURRENT ASSETS][CURRENT RATIO]
+                
+    [117][BALANCE SHEET][LONG TERM DEBT]
+        ✅🚨 SAME AS:
+                [113][BALANCE SHEET][LONG TERM DEBT]
+        
+    [120][BALANCE SHEET][DEFERRED INCOME TAX, MINORITY INTEREST, OTHER LIABILITIES]
+        ✅ deferred income tax = tax due but not yet paid
+        minority interest = when a company acquires more than 80% of a company, the remaining (100 - n%) is booked as a liability
+        other liabilities = catchall category (non-current benefits, interest on tax liabilities, unpaid fines, derivative instruments)
+        
+        INTERPRETATION: 
+            all don't tell much
+
+    [122][BALANCE SHEET][TOTAL LIABILITIES, DEBT TO SHAREHOLDERS EQUITY RATIO]
+        ☑️ total liabilities = sum of all the liabilities of the company 
+        
+        Debt to Shareholders Equity Ratio = Total Liabilities / Shareholders Equity
+        
+        the ratio can sometimes be misleading. for example, by spending equity/retained earnings, equity/retained earnings decreases. this increases debt:equity ratio which then increases the debt to shareholders equity ratio
+        
+        Instead, use the Adjusted Debt to Shareholders Equity Ratio:
+        Adjusted Debt to Shareholders Equity Ratio = Total Liabilities + Treasury stock / Shareholders Equity
+        by adding treasury stock, we eliminate the biased measurement if a company were to spend equity/retained earnings
+        
+        INTERPRETATION: 
+            look for companies with a high shareholder's equity and low level of total liabilities
+            ADJUSTED debt to shareholders equity ratio: 
+                below 0.8
+                    the lower the better
+                EXCEPTION: financial institution
+    
+    [126][BALANCE SHEET][SHAREHOLDERS EQUITY, BOOK VALUE]
+        ✅ Assets - Liabilities = Equity
+        Equity = net worth = shareholders equity = book value of the business
+        
+    [128][BALANCE SHEET][PREFFERED STOCK, COMMON STOCK, ADDITIONAL PAID IN CAPITAL]
+        ☑️ 
             
 
                     
